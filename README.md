@@ -96,7 +96,7 @@ legend("topleft", c("Prediccion", "Int. Conf. 80%", "Int. Conf. 95%"), pch = 19,
 <img src="ins/plotarima.png" width="350">
 
 
-La Predicción STL se comporta de mejor forma para la predicción en pasajeros por molinetes.
+El modelo STL se comporta de mejor forma para la predicción en pasajeros por molinetes.
 
 Proximamente:
 _ Apertura por linea de subte
