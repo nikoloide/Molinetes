@@ -35,15 +35,15 @@ Ok Ya a simple vista podemos empezar a ver algo
 Empezemos con los modelo!!
 ```r
 # simple exponencial - modela nivel (remainder), sin tendencia ni componente estacional
-modelo.simple <- HoltWinters(gripes.ts, beta=FALSE, gamma=FALSE)
+modelo.simple <- HoltWinters(subtes, beta=FALSE, gamma=FALSE)
 
 modelo.simple
 
 # doble exponencial - modela nivel (remainder) y tendencia, sin componente estacional
-modelo.doble <- HoltWinters(gripes.ts, gamma=FALSE)
+modelo.doble <- HoltWinters(subtes, gamma=FALSE)
 modelo.doble
 
 # triple exponencial - modela datos, tendencia y componente estacional
-modelo.completo <- HoltWinters(gripes.ts)
+modelo.completo <- HoltWinters(subtes)
 summary(modelo.completo)
 ```
