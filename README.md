@@ -96,7 +96,7 @@ legend("topleft", c("Prediccion", "Int. Conf. 80%", "Int. Conf. 95%"), pch = 19,
 <img src="ins/plotarima.png" width="350">
 
 
-El modelo STL se comporta de mejor forma para la predicción en pasajeros por molinetes.
+El modelo STL se comporta de mejor manera ante la predicción en pasajeros por molinetes.
 
 Proximamente:
 _ Apertura por linea de subte
@@ -105,4 +105,3 @@ Ideas que dejo:
 _ Verificar motivo el componente estacional (temperatura, mm de lluvias)
 _ Explicar la baja durante el periodo 2012-2014 (Aumento de Precio, uso ECOtranporte - Bicicletas)
 
-Este estudio tiene infinitas aristas... Continuará
