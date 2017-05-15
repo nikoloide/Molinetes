@@ -21,10 +21,12 @@ Los datos los obtuve a partir de la iniciativa del GCBA de "Apertura de Datos" h
 ```r
 # Necesitamos convertir nuestro dataset en un objeto que R
 # reconozca como Serie Temporal.  Cubriremos dos formatos de varios formatos,
-
 fechas <- with(subte, ISOdate(año, mes, dia))
 ```
 
 ```r
 subtes <- zoo(x = subte$u, order.by = fechas)
-...
+
+```
+
+<img src="ins/plot1.png" width="250">
